@@ -1,0 +1,21 @@
+
+/// Constant getter
+/// @param {String} $name - Name of constant to get
+/// @return {*} Constant value
+/// @require $CONSTANTS
+/// @throw 'Unknown constant `#{$name}`.'
+@function const($name) {
+    @if not map-has-key($CONSTANTS, $name) {
+      @error 'Unknown constant `#{$name}`.';
+    }
+  
+    @return map-get($CONSTANTS, $name);
+};
+
+/// Constants map
+/// @type Map
+$CONSTANTS: (
+  'COLOR_ACCENT': #00897B,
+  'COLOR_NEUTRAL_1': #fff,
+  'COLOR_NEUTRAL_2': #f8f9fa
+);
