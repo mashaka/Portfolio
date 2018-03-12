@@ -1,7 +1,7 @@
 <template>
   <section id="hello-text-block">
     <h1>Hello.</h1>
-    <h1>I am Mariia,</h1>
+    <h1>I am <span class="accent">Mariia</span>,</h1>
     <h1>Software Engineer.</h1>
   </section>
 </template>

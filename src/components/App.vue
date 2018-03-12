@@ -43,7 +43,7 @@ body {
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -56,6 +56,10 @@ section {
   h1 {
     text-align: left;
   }
+}
+
+.accent {
+  color: const('COLOR_ACCENT');
 }
 
 </style>

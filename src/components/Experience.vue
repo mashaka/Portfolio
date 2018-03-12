@@ -1,6 +1,7 @@
 <template>
     <section id="experience" class="section">
-        <h1 class="section-header">Experience & Education</h1>
+        <h1 class="section-header"><span class="accent">Exp</span>erience 
+            & <span class="accent">Edu</span>cation</h1>
     </section>
 </template>
     

@@ -1,6 +1,6 @@
 <template>
     <section id="hackathons" class="section">
-        <h1 class="section-header">Hackathons</h1>
+        <h1 class="section-header"><span class="accent">Hac</span>kathons</h1>
     </section>
 </template>
     
