@@ -53,8 +53,16 @@ section {
   padding: 76px 20px 20px;
 }
 
+.section-header {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 500;
+}
+
 .accent {
   color: const('COLOR_ACCENT');
+  
 }
 
 </style>

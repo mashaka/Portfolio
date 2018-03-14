@@ -3,7 +3,7 @@
         <b-container fluid>
             <b-row class="justify-content-md-center">
                 <b-col md="6">
-                    <h1 class="section-header"><span class="accent">Exp</span>erience</h1>
+                    <p class="section-header"><span class="accent">Exp</span>erience</p>
                     <experienceItem 
                         v-for="item in work"
                         v-bind:experienceItem="item"
@@ -12,7 +12,7 @@
                 </b-col>
 
                 <b-col md="6">
-                    <h1 class="section-header"><span class="accent">Edu</span>cation</h1>
+                    <p class="section-header"><span class="accent">Edu</span>cation</p>
                     <experienceItem 
                         v-for="item in education"
                         v-bind:experienceItem="item"

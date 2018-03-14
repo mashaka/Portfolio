@@ -1,6 +1,6 @@
 <template>
     <section id="hackathons" class="section">
-        <h1 class="section-header"><span class="accent">Hac</span>kathons</h1>
+        <p class="section-header"><span class="accent">Hac</span>kathons</p>
         <b-container fluid>
             <b-row class="justify-content-md-center">
                 <b-col md="3" v-for="item in hackathons" :key="item.id">

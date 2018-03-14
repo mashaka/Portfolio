@@ -1,6 +1,6 @@
 <template>
     <section id="projects" class="section">
-        <h1 class="section-header"><span class="accent">Pro</span>jects</h1>
+        <p class="section-header"><span class="accent">Pro</span>jects</p>
         <b-container fluid>
             <b-row class="justify-content-md-center">
                 <b-col md="5" v-for="item in projects" :key="item.id">
