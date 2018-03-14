@@ -51,11 +51,6 @@ body {
 
 section {
   padding: 76px 20px 20px;
-  height: 400px;
-
-  h1 {
-    text-align: left;
-  }
 }
 
 .accent {

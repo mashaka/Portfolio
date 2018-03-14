@@ -2,12 +2,10 @@
     <section id="projects" class="section">
         <h1 class="section-header"><span class="accent">Pro</span>jects</h1>
         <b-container fluid>
-            <b-row>
-                <b-col>
+            <b-row class="justify-content-md-center">
+                <b-col md="5" v-for="item in projects" :key="item.id">
                     <project
-                        v-for="item in projects"
-                        v-bind:project="item"
-                        v-bind:key="item.id">
+                        v-bind:project="item">
                     </project>
                 </b-col>
             </b-row>
@@ -29,6 +27,27 @@ export default {
                 description: 'Android • Machine Learning', 
                 img: require('../assets/img/color-genius.jpg'),
                 link: 'https://chloe.machineheads.co/'
+            },
+            {
+                id: 1, 
+                title: 'Meet Articles', 
+                description: 'Project Manager', 
+                img: require('../assets/img/meet-articles.jpg'),
+                link: 'https://meetarticles.me/'
+            },
+            {
+                id: 2, 
+                title: 'Inspiry', 
+                description: 'Python developer', 
+                img: require('../assets/img/inspiry.jpg'),
+                link: 'https://github.com/mashaka/Inspiry'
+            },
+            {
+                id: 3, 
+                title: 'Jules Verne', 
+                description: 'Project Manager', 
+                img: require('../assets/img/jules-verne.jpg'),
+                link: 'http://julesvernetrilogy.com/'
             }
         ]
     }

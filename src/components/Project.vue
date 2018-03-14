@@ -1,5 +1,5 @@
 <template>
-    <md-card>
+    <md-card class="project-card">
         <md-card-media-cover md-text-scrim>
         <md-card-media md-ratio="4:3">
             <img :src="project.img" :alt="getAlt(project)">
@@ -34,9 +34,10 @@
 </script>
 
 <style lang="scss">
-    .md-card {
-        width: 320px;
-        margin: 4px;
+    .project-card {
+        max-width: 400px;
+        width: 100%;
+        margin: 20px;
         display: inline-block;
         vertical-align: top;
     }

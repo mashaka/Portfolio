@@ -1,8 +1,82 @@
 <template>
     <section id="hackathons" class="section">
         <h1 class="section-header"><span class="accent">Hac</span>kathons</h1>
+        <b-container fluid>
+            <b-row class="justify-content-md-center">
+                <b-col md="4" v-for="item in hackathons" :key="item.id">
+                    <hackathon
+                        v-bind:hackathon="item">
+                    </hackathon>
+                </b-col>
+            </b-row>
+        </b-container>
     </section>
 </template>
+
+<script>
+import Hackathon from './Hackathon.vue'
+
+export default {
+    name: 'hackathons',
+    data () {
+        return {
+            hackathons: [
+                {
+                    id: 0, 
+                    name: 'HackUPC 2017 Fall',
+                    isWinner: true,
+                    description: 'Barcelona, 2017', 
+                    img: require('../assets/img/hacks/hackupc-2017-fall.png'),
+                    link: 'https://devpost.com/software/tripscanner'
+                },
+                {
+                    id: 0, 
+                    name: 'Color Genius',
+                    isWinner: false,
+                    description: 'Dubai, 2017', 
+                    img: require('../assets/img/hacks/angelhack-dubai.png'),
+                    link: 'http://www.hackathon.io/beconfident'
+                },
+                {
+                    id: 0, 
+                    name: 'Color Genius',
+                    isWinner: true,
+                    description: 'Moscow, 2017', 
+                    img: require('../assets/img/hacks/angelhack-moscow.png'),
+                    link: 'http://apps4all.ru/post/07-04-17-kto-pobedil-v-finale-angelhack-17e'
+                },
+                {
+                    id: 0, 
+                    name: 'Color Genius',
+                    isWinner: true,
+                    description: 'Copenhagen, 2017', 
+                    img: require('../assets/img/hacks/copenhacks-2017.png'),
+                    link: 'https://devpost.com/software/stop-sti-0cvw2k'
+                },
+                {
+                    id: 0, 
+                    name: 'Color Genius',
+                    isWinner: true,
+                    description: 'Barcelona, 2017', 
+                    img: require('../assets/img/hacks/hackupc-2017-winter.png'),
+                    link: 'https://devpost.com/software/barney'
+                },
+                {
+                    id: 0, 
+                    name: 'Color Genius',
+                    isWinner: false,
+                    description: 'Helsinki, 2016', 
+                    img: require('../assets/img/hacks/junction-2016.png'),
+                    link: 'https://devpost.com/software/colorme-50fz68'
+                }
+            ]
+        }
+    },
+    components: {
+        hackathon: Hackathon    
+    }
+}
+</script>
     
 <style lang="scss">
     #hackathons {
