@@ -21,6 +21,8 @@
 
 .custom-navbar {
     box-shadow:  0px 3px 5px #aaaaaa;
+    padding-left: 40px;
+    padding-right: 40px;
 
     #nav_collapse {
         text-transform: uppercase;
@@ -38,6 +40,7 @@
         .active{
             color: const('COLOR_ACCENT');
         }
+
     }
 
     #brand{
