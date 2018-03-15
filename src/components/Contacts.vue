@@ -1,6 +1,6 @@
 <template>
     <section id="contacts">
-        <p class="section-header"><span class="accent">Con</span>tact</p>
+        <h1 class="section-header"><span class="accent">Con</span>tact</h1>
         <b-container class="data-container" fluid>
             <b-row class="justify-content-md-center">
                 <b-col md="12" >

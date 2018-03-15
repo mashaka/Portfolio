@@ -1,6 +1,6 @@
 <template>
     <section id="hackathons">
-        <p class="section-header"><span class="accent">Hac</span>kathons</p>
+        <h1 class="section-header"><span class="accent">Hac</span>kathons</h1>
         <b-container class="data-container" fluid>
             <b-row class="justify-content-md-center">
                 <b-col lg="3" md="4" v-for="item in hackathons" :key="item.id">
@@ -34,7 +34,7 @@ export default {
                     name: 'HackUPC 2017 Fall',
                     isWinner: true,
                     description: 'Barcelona, 2017', 
-                    img: require('../assets/img/hacks/hackupc-2017-fall.png'),
+                    img: require('../assets/img/hacks/hackupc-2017-fall.jpg'),
                     link: 'https://devpost.com/software/tripscanner'
                 },
                 {
@@ -50,7 +50,7 @@ export default {
                     name: 'AngelHack Dubai',
                     isWinner: false,
                     description: 'Dubai, 2017', 
-                    img: require('../assets/img/hacks/angelhack-dubai.png'),
+                    img: require('../assets/img/hacks/angelhack-dubai.jpg'),
                     link: 'http://www.hackathon.io/beconfident'
                 },
                 {
@@ -58,7 +58,7 @@ export default {
                     name: 'AngelHack Moscow',
                     isWinner: true,
                     description: 'Moscow, 2017', 
-                    img: require('../assets/img/hacks/angelhack-moscow.png'),
+                    img: require('../assets/img/hacks/angelhack-moscow.jpg'),
                     link: 'http://apps4all.ru/post/07-04-17-kto-pobedil-v-finale-angelhack-17e'
                 },
                 {
@@ -66,7 +66,7 @@ export default {
                     name: 'CopenHacks',
                     isWinner: true,
                     description: 'Copenhagen, 2017', 
-                    img: require('../assets/img/hacks/copenhacks-2017.png'),
+                    img: require('../assets/img/hacks/copenhacks-2017.jpg'),
                     link: 'https://devpost.com/software/stop-sti-0cvw2k'
                 },
                 {
@@ -74,7 +74,7 @@ export default {
                     name: 'HackUPC Winter',
                     isWinner: true,
                     description: 'Barcelona, 2017', 
-                    img: require('../assets/img/hacks/hackupc-2017-winter.png'),
+                    img: require('../assets/img/hacks/hackupc-2017-winter.jpg'),
                     link: 'https://devpost.com/software/barney'
                 },
                 {
@@ -82,7 +82,7 @@ export default {
                     name: 'Junction',
                     isWinner: false,
                     description: 'Helsinki, 2016', 
-                    img: require('../assets/img/hacks/junction-2016.png'),
+                    img: require('../assets/img/hacks/junction-2016.jpg'),
                     link: 'https://devpost.com/software/colorme-50fz68'
                 }
             ]

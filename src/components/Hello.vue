@@ -32,7 +32,7 @@
         p {
             font-weight: 400;
             font-size: 3em;
-            margin: 40px;
+            line-height: 100%;
             color: const("COLOR_NEUTRAL_1");
         }
     }

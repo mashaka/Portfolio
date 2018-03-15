@@ -1,9 +1,9 @@
 <template>
     <section id="projects">
-        <p class="section-header"><span class="accent">Pro</span>jects</p>
+        <h1 class="section-header"><span class="accent">Pro</span>jects</h1>
         <b-container class="data-container" fluid>
             <b-row class="justify-content-md-center">
-                <b-col md="6" v-for="item in projects" :key="item.id">
+                <b-col md="6" sm="12" v-for="item in projects" :key="item.id">
                     <project
                         v-bind:project="item">
                     </project>
