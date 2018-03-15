@@ -1,6 +1,6 @@
-# portfolio
+# Portfolio
 
-> A Vue.js project
+This project was created as part of Udacity Front-End Web Developer Nanodegree Program.
 
 ## Build Setup
 
