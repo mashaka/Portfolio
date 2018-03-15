@@ -1,9 +1,9 @@
 <template>
-    <section id="projects" class="section">
+    <section id="projects">
         <p class="section-header"><span class="accent">Pro</span>jects</p>
-        <b-container fluid>
+        <b-container class="data-container" fluid>
             <b-row class="justify-content-md-center">
-                <b-col md="5" v-for="item in projects" :key="item.id">
+                <b-col md="6" v-for="item in projects" :key="item.id">
                     <project
                         v-bind:project="item">
                     </project>
@@ -61,5 +61,9 @@ export default {
 <style lang="scss">
     #projects {
         background-color: const('COLOR_NEUTRAL_1');
+
+        .data-container {
+            max-width: 820px;
+        }
     }
 </style>

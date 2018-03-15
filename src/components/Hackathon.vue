@@ -1,5 +1,5 @@
 <template>
-    <md-card class="hackathon-card" md-with-hover>
+    <md-card class="hackathon-card">
         <md-card-media md-ratio="1:1">
             <img :src="hackathon.img" :alt="getAlt(hackathon)">
         </md-card-media>
@@ -34,13 +34,14 @@
 
 <style lang="scss">
     .hackathon-card {
-        max-width: 250px;
+        max-width: 220px;
         width: 100%;
         margin: 20px;
         display: inline-block;
         vertical-align: top;
 
         .md-card-actions {
+            display: flex;
             justify-content: space-between;
         }
 
@@ -50,6 +51,10 @@
             font-size: 14px;
             margin-left: 5px;
             background-color: #FFC107;
+        }
+
+        .md-title {
+            font-size: 18px;
         }
     }
 </style>

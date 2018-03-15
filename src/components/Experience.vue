@@ -1,6 +1,6 @@
 <template>
-    <section id="experience-block" class="section">
-        <b-container fluid>
+    <section id="experience-block">
+        <b-container class="data-container" fluid>
             <b-row class="justify-content-md-center">
                 <b-col md="6">
                     <p class="section-header"><span class="accent">Exp</span>erience</p>

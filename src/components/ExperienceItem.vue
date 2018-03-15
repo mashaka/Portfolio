@@ -28,7 +28,7 @@
 <style lang="scss">
     .experience-card {
         background-color: const('COLOR_NEUTRAL_1');
-        max-width: 500px;
+        max-width: 550px;
         width: 100%;
         margin: 20px;
         display: inline-block;
@@ -41,6 +41,10 @@
 
         .md-card-header {
             margin: 0px;
+
+            .md-title {
+                font-size: 18px;
+            }
         }
     }
 </style>

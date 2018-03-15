@@ -1,7 +1,7 @@
 <template>
-    <section id="contacts" class="section">
-        <p class="section-header"><span class="accent">Con</span>tacts </p>
-        <b-container fluid>
+    <section id="contacts">
+        <p class="section-header"><span class="accent">Con</span>tact</p>
+        <b-container class="data-container" fluid>
             <b-row class="justify-content-md-center">
                 <b-col md="12" >
                     <contact
@@ -51,7 +51,6 @@
 </script>
     
 <style lang="scss">
-    
     #contacts {
         background-color: const('COLOR_NEUTRAL_2');
     }

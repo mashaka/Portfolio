@@ -6,6 +6,7 @@
     <experience></experience>
     <hackathons></hackathons>
     <contacts></contacts>
+    <footerComponent></footerComponent>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Projects from './Projects.vue'
 import Experience from './Experience.vue'
 import Hackathons from './Hackathons.vue'
 import Contacts from './Contacts.vue'
+import Footer from './Footer.vue'
 
 export default {
   name: 'app',
@@ -30,7 +32,8 @@ export default {
     projects: Projects,
     experience: Experience,
     hackathons: Hackathons,
-    contacts: Contacts
+    contacts: Contacts,
+    footerComponent: Footer
   }
 }
 </script>
@@ -50,11 +53,15 @@ body {
 }
 
 section {
-  padding: 76px 20px 20px;
+  padding: 76px 20px 40px 20px;
+
+  .data-container {
+    max-width: 1100px;
+  }
 }
 
 .section-header {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-transform: uppercase;
   font-size: 2em;
   font-weight: 500;
