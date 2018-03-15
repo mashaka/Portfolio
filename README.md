@@ -2,6 +2,8 @@
 
 This project was created as part of Udacity Front-End Web Developer Nanodegree Program.
 
+You can try it [here](https://mashaka.github.io/Portfolio/).
+
 ## Build Setup
 
 ``` bash
