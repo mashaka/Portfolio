@@ -6,7 +6,7 @@
           <p>Hi, I am <span class="accent">Mariia</span>,</p>
           <p>Software Engineer.</p>
         </div>
-        <a href=#projects>
+        <a href=#projects v-scroll-to="'#projects'">
           <md-button id="view-work" class="md-raised">View my work</md-button>
         </a>
     </div>

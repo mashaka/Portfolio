@@ -43,6 +43,7 @@ export default {
 body {
   position: relative;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 #app {
@@ -69,7 +70,6 @@ section {
 
 .accent {
   color: const('COLOR_ACCENT');
-  
 }
 
 </style>

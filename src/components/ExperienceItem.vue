@@ -4,6 +4,7 @@
             <md-card-header-text>
                 <div class="md-title">{{ experienceItem.title }}</div>
                 <div class="md-subhead">{{ experienceItem.dates }}</div>
+                <div class="md-subhead">{{ experienceItem.role }}</div>
             </md-card-header-text>
 
             <md-card-media>

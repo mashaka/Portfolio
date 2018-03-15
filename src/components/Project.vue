@@ -40,5 +40,14 @@
         margin: 20px;
         display: inline-block;
         vertical-align: top;
+
+        .md-title {
+            font-size: 26px;
+            margin-bottom: 5px;
+        }
+
+        .md-subhead {
+            font-size: 16px;
+        }
     }
 </style>

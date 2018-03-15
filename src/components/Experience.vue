@@ -1,5 +1,5 @@
 <template>
-    <section id="experience-block">
+    <section id="experience">
         <b-container class="data-container" fluid>
             <b-row class="justify-content-md-center">
                 <b-col md="6">
@@ -35,13 +35,15 @@ export default {
             {
                 id: 0, 
                 title: 'Software Engineer at ABBYY', 
-                dates: 'Jan. 2016 – Sep. 2017', 
+                dates: 'Jan. 2016 – Sep. 2017',
+                role: 'C++ • Python • Machine Learning',
                 img: require('../assets/img/ABBYY.jpg')
             },
             {
                 id: 1, 
                 title: 'Data scientist intern at ABBYY', 
-                dates: 'Jul. 2015 – Sep. 2015', 
+                dates: 'Jul. 2015 – Sep. 2015',
+                role: 'Python • Machine Learning',
                 img: require('../assets/img/ABBYY.jpg'),
             }
         ],
@@ -49,13 +51,15 @@ export default {
             {
                 id: 0, 
                 title: 'Master\'s degree in Computer Science at MIPT', 
-                dates: 'Sep. 2016 – Present', 
+                dates: 'Sep. 2016 – Present',
+                role: 'Computer Vision',
                 img: require('../assets/img/MIPT.jpg')
             },
             {
                 id: 1, 
                 title: 'Bachelor\'s degree in Computer Science at MIPT', 
-                dates: 'Sep. 2012 – Jul. 2016', 
+                dates: 'Sep. 2012 – Jul. 2016',
+                role: 'Natural Language Processing',
                 img: require('../assets/img/MIPT.jpg'),
             }
         ]
@@ -68,7 +72,7 @@ export default {
 </script>
 
 <style lang="scss">
-    #experience-block {
+    #experience {
         background-color: const('COLOR_NEUTRAL_2');
     }
 </style>
