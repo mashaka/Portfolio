@@ -22,14 +22,14 @@
 </template>
 
 <script>
-    export default {
-        props: ['hackathon'],
-        methods: {
-            getAlt: function (hackathon) {
-                return hackathon.name + " hackathon";
-            }
+export default {
+    props: ['hackathon'],
+    methods: {
+        getAlt: function (hackathon) {
+            return hackathon.name + " hackathon";
         }
-    };
+    }
+};
 </script>
 
 <style lang="scss">

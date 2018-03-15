@@ -9,12 +9,12 @@ import App from './components/App.vue'
 import VueScrollTo from 'vue-scrollto'
 import Icon from 'vue-awesome/components/Icon'
 
-Vue.component('icon', Icon)
-Vue.use(VueMaterial)
+Vue.component('icon', Icon);
+Vue.use(VueMaterial);
 Vue.use(VueScrollTo);
 Vue.use(BootstrapVue);
 
 new Vue({
-  el: '#app',
-  render: h => h(App)
+    el: '#app',
+    render: h => h(App)
 })

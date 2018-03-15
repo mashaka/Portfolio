@@ -22,32 +22,31 @@
 </template>
 
 <script>
-    export default {
-        props: ['project'],
-        methods: {
-            getAlt: function (project) {
-                return project.name + " project";
-            }
+export default {
+    props: ['project'],
+    methods: {
+        getAlt: function (project) {
+            return project.name + " project";
         }
-    };
-    
+    }
+};
 </script>
 
 <style lang="scss">
-    .project-card {
-        max-width: 400px;
-        width: 100%;
-        margin: 20px;
-        display: inline-block;
-        vertical-align: top;
+.project-card {
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
 
-        .md-title {
-            font-size: 26px;
-            margin-bottom: 5px;
-        }
-
-        .md-subhead {
-            font-size: 16px;
-        }
+    .md-title {
+        font-size: 26px;
+        margin-bottom: 5px;
     }
+
+    .md-subhead {
+        font-size: 16px;
+    }
+}
 </style>

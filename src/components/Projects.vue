@@ -17,8 +17,8 @@
 import Project from './Project.vue'
 
 export default {
-  name: 'projects',
-  data () {
+    name: 'projects',
+    data () {
     return {
         projects: [
             {
@@ -51,19 +51,19 @@ export default {
             }
         ]
     }
-  },
-  components: {
-    project: Project
-  }
+    },
+    components: {
+        project: Project
+    }
 }
 </script>
   
 <style lang="scss">
-    #projects {
-        background-color: const('COLOR_NEUTRAL_1');
+#projects {
+    background-color: const('COLOR_NEUTRAL_1');
 
-        .data-container {
-            max-width: 820px;
-        }
+    .data-container {
+        max-width: 820px;
     }
+}
 </style>

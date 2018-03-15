@@ -18,7 +18,6 @@
 </template>
 
 <style lang="scss">
-
 .custom-navbar {
     box-shadow:  0px 3px 5px #aaaaaa;
     padding-left: 40px;

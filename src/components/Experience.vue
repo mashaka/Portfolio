@@ -28,8 +28,8 @@
 import ExperienceItem from './ExperienceItem.vue'
 
 export default {
-  name: 'experience_and_education',
-  data () {
+    name: 'experience_and_education',
+    data () {
     return {
         work: [
             {
@@ -64,15 +64,15 @@ export default {
             }
         ]
     }
-  },
-  components: {
-    experienceItem: ExperienceItem
-  }
+    },
+    components: {
+        experienceItem: ExperienceItem
+    }
 }
 </script>
 
 <style lang="scss">
-    #experience {
-        background-color: const('COLOR_NEUTRAL_2');
-    }
+#experience {
+    background-color: const('COLOR_NEUTRAL_2');
+}
 </style>

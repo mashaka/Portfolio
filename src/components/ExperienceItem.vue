@@ -15,37 +15,36 @@
 </template>
 
 <script>
-    export default {
-        props: ['experienceItem'],
-        methods: {
-            getAlt: function (experienceItem) {
-                return experienceItem.name + " experience item";
-            }
+export default {
+    props: ['experienceItem'],
+    methods: {
+        getAlt: function (experienceItem) {
+            return experienceItem.name + " experience item";
         }
-    };
-    
+    }
+};  
 </script>
 
 <style lang="scss">
-    .experience-card {
-        background-color: const('COLOR_NEUTRAL_1');
-        max-width: 550px;
-        width: 100%;
-        margin: 20px;
-        display: inline-block;
-        vertical-align: top;
+.experience-card {
+    background-color: const('COLOR_NEUTRAL_1');
+    max-width: 550px;
+    width: 100%;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
 
-        .md-card-media {
-            display: flex;
-            align-items: center;
-        }
+    .md-card-media {
+        display: flex;
+        align-items: center;
+    }
 
-        .md-card-header {
-            margin: 0px;
+    .md-card-header {
+        margin: 0px;
 
-            .md-title {
-                font-size: 18px;
-            }
+        .md-title {
+            font-size: 18px;
         }
     }
+}
 </style>

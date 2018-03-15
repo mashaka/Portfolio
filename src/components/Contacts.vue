@@ -16,42 +16,42 @@
 </template>
 
 <script>
-    import Contact from './Contact.vue'
-    
-    export default {
-        name: 'contacts',
-        data () {
-            return {
-                contacts: [
-                    {
-                        id: 0, 
-                        name: 'LinkedIn',
-                        icon: 'linkedin-square',
-                        link: 'https://www.linkedin.com/in/mariasandrikova'
-                    },
-                    {
-                        id: 1, 
-                        name: 'GitHub',
-                        icon: 'github-square',
-                        link: 'https://github.com/mashaka'
-                    },
-                    {
-                        id: 2, 
-                        name: 'Facebook',
-                        icon: 'facebook-square',
-                        link: 'https://www.facebook.com/maria.sandrikova'
-                    }
-                ]
-            }
-        },
-        components: {
-            contact: Contact    
+import Contact from './Contact.vue'
+
+export default {
+    name: 'contacts',
+    data () {
+        return {
+            contacts: [
+                {
+                    id: 0, 
+                    name: 'LinkedIn',
+                    icon: 'linkedin-square',
+                    link: 'https://www.linkedin.com/in/mariasandrikova'
+                },
+                {
+                    id: 1, 
+                    name: 'GitHub',
+                    icon: 'github-square',
+                    link: 'https://github.com/mashaka'
+                },
+                {
+                    id: 2, 
+                    name: 'Facebook',
+                    icon: 'facebook-square',
+                    link: 'https://www.facebook.com/maria.sandrikova'
+                }
+            ]
         }
+    },
+    components: {
+        contact: Contact    
     }
+}
 </script>
     
 <style lang="scss">
-    #contacts {
-        background-color: const('COLOR_NEUTRAL_2');
-    }
+#contacts {
+    background-color: const('COLOR_NEUTRAL_2');
+}
 </style>

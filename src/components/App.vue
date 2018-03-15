@@ -1,13 +1,13 @@
 <template>
-  <div id="app" ref="content">
-    <navbar></navbar>
-    <hello></hello>
-    <projects></projects>
-    <experience></experience>
-    <hackathons></hackathons>
-    <contacts></contacts>
-    <footerComponent></footerComponent>
-  </div>
+    <div id="app" ref="content">
+        <navbar></navbar>
+        <hello></hello>
+        <projects></projects>
+        <experience></experience>
+        <hackathons></hackathons>
+        <contacts></contacts>
+        <footerComponent></footerComponent>
+    </div>
 </template>
 
 <script>
@@ -20,56 +20,54 @@ import Contacts from './Contacts.vue'
 import Footer from './Footer.vue'
 
 export default {
-  name: 'app',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
+    name: 'app',
+    data () {
+        return {
+            msg: 'Welcome to Your Vue.js App'
+        }
+    },
+    components: {
+        navbar: Navbar,
+        hello: Hello,
+        projects: Projects,
+        experience: Experience,
+        hackathons: Hackathons,
+        contacts: Contacts,
+        footerComponent: Footer
     }
-  },
-  components: {
-    navbar: Navbar,
-    hello: Hello,
-    projects: Projects,
-    experience: Experience,
-    hackathons: Hackathons,
-    contacts: Contacts,
-    footerComponent: Footer
-  }
 }
 </script>
 
 <style lang="scss">
-
 body {
-  position: relative;
-  margin: 0px;
-  overflow-x: hidden;
+    position: relative;
+    margin: 0px;
+    overflow-x: hidden;
 }
 
 #app {
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
 }
 
 section {
-  padding: 76px 20px 40px 20px;
+    padding: 76px 20px 40px 20px;
 
-  .data-container {
+    .data-container {
     max-width: 1100px;
-  }
+    }
 }
 
 .section-header {
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  font-size: 2em;
-  font-weight: 500;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 500;
 }
 
 .accent {
-  color: const('COLOR_ACCENT');
+    color: const('COLOR_ACCENT');
 }
-
 </style>

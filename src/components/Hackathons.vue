@@ -95,7 +95,7 @@ export default {
 </script>
     
 <style lang="scss">
-    #hackathons {
-        background-color: const('COLOR_NEUTRAL_1');
-    }
+#hackathons {
+    background-color: const('COLOR_NEUTRAL_1');
+}
 </style>
