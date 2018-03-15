@@ -3,7 +3,7 @@
 
     <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
     
-    <b-navbar-brand id="brand" href="#">Mariia <span class="accent">Sandrikova</span></b-navbar-brand>
+    <b-navbar-brand id="brand" href="#hello-text-block" v-scroll-to="'#hello-text-block'">Mariia <span class="accent">Sandrikova</span></b-navbar-brand>
     
     <b-collapse is-nav id="nav_collapse">  
         <!-- Right aligned nav items -->
@@ -11,7 +11,7 @@
             <b-nav-item class="custom-nav-item" href="#projects" v-scroll-to="'#projects'">Projects</b-nav-item>
             <b-nav-item class="custom-nav-item" href="#experience" v-scroll-to="'#experience'">Experience</b-nav-item>
             <b-nav-item class="custom-nav-item" href="#hackathons" v-scroll-to="'#hackathons'">Hackathons</b-nav-item>
-            <b-nav-item class="custom-nav-item" href="#contacts" v-scroll-to="'#contacts'">Contacts</b-nav-item>
+            <b-nav-item class="custom-nav-item" href="#contacts" v-scroll-to="'#contacts'">Contact</b-nav-item>
         </b-navbar-nav>
     </b-collapse>
 </b-navbar>
