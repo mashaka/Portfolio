@@ -86,7 +86,7 @@ export default {
                     link: 'https://devpost.com/software/colorme-50fz68'
                 }
             ]
-        }
+        };
     },
     components: {
         hackathon: Hackathon    

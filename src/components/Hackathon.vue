@@ -17,7 +17,6 @@
                 </a>
             </md-card-actions>
         </md-card-area>
-        </md-card-media-cover>
     </md-card>
 </template>
 
@@ -26,35 +25,35 @@ export default {
     props: ['hackathon'],
     methods: {
         getAlt: function (hackathon) {
-            return hackathon.name + " hackathon";
+            return hackathon.name + ' hackathon';
         }
     }
 };
 </script>
 
 <style lang="scss">
-    .hackathon-card {
-        max-width: 220px;
-        width: 100%;
-        margin: 20px;
-        display: inline-block;
-        vertical-align: top;
+.hackathon-card {
+    max-width: 220px;
+    width: 100%;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
 
-        .md-card-actions {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .winner-badge{
-            text-transform: uppercase;
-            font-weight: 500;
-            font-size: 14px;
-            margin-left: 5px;
-            background-color: #FFC107;
-        }
-
-        .md-title {
-            font-size: 18px;
-        }
+    .md-card-actions {
+        display: flex;
+        justify-content: space-between;
     }
+
+    .winner-badge {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 14px;
+        margin-left: 5px;
+        background-color: const('COLOR_WINNER');
+    }
+
+    .md-title {
+        font-size: 18px;
+    }
+}
 </style>

@@ -8,7 +8,7 @@
                         v-for="item in contacts" 
                         :key="item.id"
                         v-bind:contact="item">
-                </contact>
+                    </contact>
                 </b-col>
             </b-row>
         </b-container>
@@ -42,7 +42,7 @@ export default {
                     link: 'https://www.facebook.com/maria.sandrikova'
                 }
             ]
-        }
+        };
     },
     components: {
         contact: Contact    

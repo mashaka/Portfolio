@@ -22,9 +22,7 @@ import Footer from './Footer.vue'
 export default {
     name: 'app',
     data () {
-        return {
-            msg: 'Welcome to Your Vue.js App'
-        }
+        return {};
     },
     components: {
         navbar: Navbar,
@@ -41,7 +39,7 @@ export default {
 <style lang="scss">
 body {
     position: relative;
-    margin: 0px;
+    margin: 0;
     overflow-x: hidden;
 }
 
@@ -56,7 +54,7 @@ section {
     padding: 76px 20px 40px 20px;
 
     .data-container {
-    max-width: 1100px;
+        max-width: 1100px;
     }
 }
 

@@ -19,38 +19,38 @@ import Project from './Project.vue'
 export default {
     name: 'projects',
     data () {
-    return {
-        projects: [
-            {
-                id: 0, 
-                title: 'Color Genius', 
-                description: 'Android • Machine Learning', 
-                img: require('../assets/img/color-genius.jpg'),
-                link: 'https://chloe.machineheads.co/'
-            },
-            {
-                id: 1, 
-                title: 'Meet Articles', 
-                description: 'Project Manager', 
-                img: require('../assets/img/meet-articles.jpg'),
-                link: 'https://meetarticles.me/'
-            },
-            {
-                id: 2, 
-                title: 'Inspiry', 
-                description: 'Python developer', 
-                img: require('../assets/img/inspiry.jpg'),
-                link: 'https://github.com/mashaka/Inspiry'
-            },
-            {
-                id: 3, 
-                title: 'Jules Verne', 
-                description: 'Project Manager', 
-                img: require('../assets/img/jules-verne.jpg'),
-                link: 'http://julesvernetrilogy.com/'
-            }
-        ]
-    }
+        return {
+            projects: [
+                {
+                    id: 0, 
+                    title: 'Color Genius', 
+                    description: 'Android • Machine Learning', 
+                    img: require('../assets/img/color-genius.jpg'),
+                    link: 'https://chloe.machineheads.co/'
+                },
+                {
+                    id: 1, 
+                    title: 'Meet Articles', 
+                    description: 'Project Manager', 
+                    img: require('../assets/img/meet-articles.jpg'),
+                    link: 'https://meetarticles.me/'
+                },
+                {
+                    id: 2, 
+                    title: 'Inspiry', 
+                    description: 'Python developer', 
+                    img: require('../assets/img/inspiry.jpg'),
+                    link: 'https://github.com/mashaka/Inspiry'
+                },
+                {
+                    id: 3, 
+                    title: 'Jules Verne', 
+                    description: 'Project Manager', 
+                    img: require('../assets/img/jules-verne.jpg'),
+                    link: 'http://julesvernetrilogy.com/'
+                }
+            ]
+        };
     },
     components: {
         project: Project

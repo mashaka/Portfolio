@@ -8,8 +8,8 @@
 #footer {
     padding-top: 40px;
     padding-bottom: 20px;
-    color: white;
-    background-color: #343a40;
+    color: const('COLOR_NEUTRAL_1');
+    background-color: const('COLOR_FOOTER');
     font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     font-size: 1.2em;

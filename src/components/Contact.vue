@@ -5,19 +5,14 @@
 </template>
 
 <script>
-    export default {
-        props: ['contact'],
-        methods: {
-            getAlt: function (contact) {
-                return contact.name + " link";
-            }
-        }
-    };
+export default {
+    props: ['contact']
+};
 </script>
 
 <style lang="scss">
-    .contact {
-        margin: 20px;
-        color: darkgrey;
-    }
+.contact {
+    margin: 20px;
+    color: darkgrey;
+}
 </style>

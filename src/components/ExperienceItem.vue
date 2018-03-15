@@ -19,7 +19,7 @@ export default {
     props: ['experienceItem'],
     methods: {
         getAlt: function (experienceItem) {
-            return experienceItem.name + " experience item";
+            return experienceItem.name + ' experience item';
         }
     }
 };  
@@ -40,7 +40,7 @@ export default {
     }
 
     .md-card-header {
-        margin: 0px;
+        margin: 0;
 
         .md-title {
             font-size: 18px;
