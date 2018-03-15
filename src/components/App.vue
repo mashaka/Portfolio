@@ -40,7 +40,6 @@ export default {
 body {
     position: relative;
     margin: 0;
-    overflow-x: hidden;
 }
 
 #app {
